@@ -1,0 +1,36 @@
+body{
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.calendar{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.calendar caption{
+    margin-bottom: 10px;
+}
+
+.calendar .header{
+    background: #555;
+    color: #fff;
+}
+
+.calendar th, .calendar td{
+    width: 14%;
+}
+
+.day{
+    padding: 15px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.left{
+    color: gray;
+    padding: 15px;
+    border: 1px solid black;
+    text-align: center;
+}
